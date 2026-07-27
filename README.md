@@ -44,8 +44,10 @@ Resize the frame and rotate it using OpenCV functions, then display the processe
 **Name: V.Siri Sai**  
 
 **Register No: 212225240181**
-```
+
 ##  The frame as JPG file
+
+```
 import cv2
 import matplotlib.pyplot as plt
 from IPython.display import clear_output
@@ -64,9 +66,13 @@ plt.show()
 
 ```
 
+<img width="642" height="502" alt="image" src="https://github.com/user-attachments/assets/ad0efcd7-a983-433b-af80-5fa97d79a523" />
+
+
+
+## Display the video
 
 ```
-## Display the video
 cap = cv2.VideoCapture(0)
 
 for i in range(50):
@@ -84,8 +90,14 @@ cap.release()
 
 ```
 
-```
+<img width="631" height="485" alt="image" src="https://github.com/user-attachments/assets/e9f03d29-b69c-41d1-ba99-36a9ab223134" />
+
+
+
+
 ## Display the video by resizing the window
+
+```
 cap = cv2.VideoCapture(0)
 
 for i in range(50):
@@ -104,9 +116,13 @@ cap.release()
 
 ```
 
-```
+<img width="327" height="492" alt="image" src="https://github.com/user-attachments/assets/160a5ed4-637b-48bc-ad45-1a3a59127d33" />
+
+
+
 ## Rotate and display the video
 
+```
 cap = cv2.VideoCapture(0)
 
 for i in range(50):
@@ -125,30 +141,12 @@ cap.release()
 
 ```
 
-## Output
-
-### i) Write the frame as JPG image
-Captured image is saved as `captured_image.jpg`
-
-<img width="642" height="502" alt="image" src="https://github.com/user-attachments/assets/ad0efcd7-a983-433b-af80-5fa97d79a523" />
-
-### ii) Display the video
-Live webcam video is displayed
-
-<img width="631" height="485" alt="image" src="https://github.com/user-attachments/assets/e9f03d29-b69c-41d1-ba99-36a9ab223134" />
-
-### iii) Display the video by resizing the window
-Video is shown in resized resolution (640 × 480)
-
-<img width="327" height="492" alt="image" src="https://github.com/user-attachments/assets/160a5ed4-637b-48bc-ad45-1a3a59127d33" />
-
-
-### iv) Rotate and display the video
-Video is displayed after rotation (90° clockwise)
-
 <img width="367" height="485" alt="image" src="https://github.com/user-attachments/assets/4952314a-0474-4a04-83f5-a5e908bc5db3" />
 
----
+
+
+
+
 
 ## Result
 
